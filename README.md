@@ -10,9 +10,9 @@ Neste laboratório iremos desenvolver uma aplicação em Flutter que permite ger
 No final do laboratório é esperado que consigamos visualizar um ecrã de home semelhante ao da figura abaixo:
 
 <p style="display: flex; justify-content: space-between; align-items: center;">
-    <img src="firebase2.jpeg" width="30%">
-    <img src="firebase3.jpeg" width="30%">
-    <img src="firebase4.jpeg" width="30%">
+    <img src="images/firebase2.jpeg" width="30%">
+    <img src="images/firebase3.jpeg" width="30%">
+    <img src="images/firebase4.jpeg" width="30%">
 </p>
 
 ## Criação do projeto
