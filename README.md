@@ -153,8 +153,8 @@ class FirebaseStorageRepository {
   FirebaseStorageRepository({FirebaseStorage? firebaseStorage})
       : _firebaseStorage = firebaseStorage ?? FirebaseStorage.instance;
 
-  UploadTask uploadMedia(File file, String fileName) {
-    return _firebaseStorage.ref('images/$fileName').putFile(file);
+  UploadTask uploadMedia(File? file, String fileName) {
+    return _firebaseStorage.ref('images/$fileName').putFile(file!);
   }
 
   Future<List<Future<Uint8List?>>> getFileList() =>
