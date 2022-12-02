@@ -9,6 +9,11 @@ Neste laboratório iremos desenvolver uma aplicação em Flutter que permite ger
 
 No final do laboratório é esperado que consigamos visualizar um ecrã de home semelhante ao da figura abaixo:
 
+<p style="display: flex; justify-content: space-between; align-items: center;">
+    <img src="firebase2.jpeg" width="30%">
+    <img src="firebase3.jpeg" width="30%">
+    <img src="firebase4.jpeg" width="30%">
+</p>
 
 ## Criação do projeto
 
@@ -605,7 +610,7 @@ Após esta alteração, deverá ser possível ver as imagens no ecrã principal.
 
 # Exercícios
 
-1. Como devem calcular, ao adicionar múltiplas images, não conseguimos vê-las sem efetuar scroll. Pode-se tornar uma experiência de utilizar massadora se apenas vemos imagens uma a uma. Para colmatar, coloquem as imagens a serem apresentadas em forma de [Grid](https://docs.flutter.dev/cookbook/lists/grid-lists)
+1. Como devem calcular, ao adicionar múltiplas imagens, não conseguimos vê-las sem efetuar scroll. Pode-se tornar uma experiência de utilizador massadora se apenas vemos imagens uma a uma. Para colmatar, coloquem as imagens a serem apresentadas em forma de [Grid](https://docs.flutter.dev/cookbook/lists/grid-lists)
 2. Devem incorporar o Ecrã de Login e Register criados no [Lab3](https://github.com/ruifgsantos/sme-lab-3). E por fim, limitar a escrita e leitura de dados no Firebase Storage para quando estejam autenticados apenas
 3. Criem uma funcionalidade para para remover imagens. Utilizem o seguinte exemplo de *onLongPress* para criarem um menu estilo *popup*. [Aqui](https://www.kindacode.com/article/flutter-showing-a-context-menu-on-long-press/)
-4. Ao adicionarem uma imagem, quando voltam para a página principal, esta não atualiza com a nova imagem! Criem uma funcionalidade de *refresh*. Uma das vias para o conseguir poderá ser a utilização do [RefreshIndicator](https://api.flutter.dev/flutter/material/RefreshIndicator-class.html), ou, podem simplesmente aidiconar um novo botão que dá *refresh*.
+4. Ao adicionarem uma imagem, quando voltam para a página principal, esta não atualiza com a nova imagem! Criem uma funcionalidade de *refresh*. Uma das vias para o conseguir poderá ser a utilização do [RefreshIndicator](https://api.flutter.dev/flutter/material/RefreshIndicator-class.html), ou, podem simplesmente adiconar um novo botão que dá *refresh*.
