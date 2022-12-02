@@ -7,7 +7,7 @@ Neste laboratório iremos desenvolver uma aplicação em Flutter que permite ger
 
 ## Gallery app
 
-No final do laboratório é esperado que consigamos visualizar um ecrã de home semelhante ao da figura abaixo:
+No final do laboratório é esperado que consigamos visualizar ecrãs semelhantes ao das figuras abaixo:
 
 <p style="display: flex; justify-content: space-between; align-items: center;">
     <img src="images/firebase2.jpeg" width="30%">
